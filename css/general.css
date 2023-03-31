@@ -75,9 +75,7 @@ body {
   font-weight: 600;
   padding: 1.2rem 2.4rem;
   border-radius: 4px;
-  border: none;
   cursor: pointer;
   font-family: inherit;
   transition: all 400ms;
-  border: 2px solid #18dec3;
 }
