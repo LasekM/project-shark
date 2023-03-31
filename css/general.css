@@ -1,0 +1,83 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+default: 400
+medium: 500
+semi-bold: 600
+bold: 700
+
+- Line heights:
+default: 1
+small: 1.05
+medium: 1.2
+paragraph default: 1.6
+
+- Letter spacing:
+0.75px
+
+
+--- 02 COLORS
+
+- Primary:
+background: #102026
+#18dec3
+- Tints:
+- Shades:
+- Accents:
+- Greys:
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+default:
+
+---07 WHITESPACES
+
+- spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  /* works if there is nothing absolutely position */
+  overflow-x: hidden;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.2rem 2.4rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 400ms;
+  border: 2px solid #18dec3;
+}
