@@ -23,7 +23,7 @@
     #102026 85%,
     #103035 100%
   );
-  padding: 2.4rem;
+  padding: 2.4rem 2.4rem 9.6rem 2.4rem;
 }
 
 /* NAVIGATION */
@@ -31,7 +31,7 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   max-width: 144rem;
   padding-bottom: 12.8rem;
   margin: 0 auto;
@@ -63,33 +63,14 @@
   color: #18dec3;
 }
 
-.btn--blue {
-  border: 2px solid #18dec3;
-  background-color: #18dec3;
-  color: #fff;
-}
-
-.btn--blue:link,
-.btn--blue:visited {
-  background-color: #18dec3;
-  color: #fff;
-}
-
-.btn--blue:hover,
-.btn--blue:active {
-  background-color: #102026;
-  color: #18dec3;
-  border-color: #18dec3;
-}
-
-/* CONTENT */
+/* HERO CONTENT */
 
 .hero-description {
   text-align: center;
   margin-bottom: 9.6rem;
 }
 
-.big-text {
+.main-heading {
   font-size: 6.4rem;
   line-height: 1.2;
   font-weight: 900;
@@ -146,6 +127,8 @@
   margin-bottom: 9.6rem;
 }
 
+/* COMPANIES */
+
 .companies {
   display: flex;
   justify-content: space-between;
@@ -155,4 +138,68 @@
   height: 3.2rem;
   filter: brightness(0) invert(1);
   color: #fff;
+}
+
+/**********************/
+/* ABOUT US */
+/**********************/
+
+.about-section {
+  background-color: rgba(209, 248, 243, 1);
+  background-image: linear-gradient(
+    170deg,
+    rgba(209, 248, 243, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 6.4rem 2.4rem 9.6rem 2.4rem;
+}
+
+.switch-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+}
+
+.btn-switch:link,
+.btn-switch:visited {
+  background-color: #eee;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0;
+  transition: none;
+}
+
+.btn-switch:hover,
+.btn-switch:active {
+  border-bottom: 4px solid #18dec3;
+}
+
+/* active */
+
+.btn-active {
+  border-bottom: 4px solid #18dec3;
+  background-color: #102026;
+  color: #fff;
+}
+
+.btn-active:link,
+.btn-active:visited {
+  background-color: #102026;
+  color: #fff;
+}
+
+.btn-active:hover,
+.btn-active:active {
+  background-color: #102026;
+  color: #18dec3;
+  border-color: #18dec3;
+}
+
+.heading-secondary {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #102026;
 }
