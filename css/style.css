@@ -37,8 +37,32 @@
   margin: 0 auto;
 }
 
+.logo--full {
+  display: flex;
+}
+
+.logo--full:link,
+.logo--full:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo--full:hover,
+.logo--full:active {
+  color: #18dec3;
+}
+
 .logo {
+  margin-right: 2rem;
   width: 8rem;
+}
+
+.logo--full p {
+  font-size: 3.2rem;
+  letter-spacing: -3px;
+  font-weight: 500;
+  text-decoration: overline;
+  align-self: center;
 }
 
 .main-nav-list {
@@ -162,13 +186,14 @@
 
 .btn-switch:link,
 .btn-switch:visited {
-  background-color: #eee;
+  background-color: rgba(201, 201, 201, 0.25);
   color: #333;
   font-size: 1.6rem;
   font-weight: 400;
   padding: 1.6rem 3.2rem;
   border-radius: 0;
   transition: none;
+  box-shadow: 0 4.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .btn-switch:hover,
@@ -193,7 +218,6 @@
 .btn-active:hover,
 .btn-active:active {
   background-color: #102026;
-  color: #18dec3;
   border-color: #18dec3;
 }
 
@@ -202,4 +226,43 @@
   line-height: 1.2;
   font-weight: 800;
   color: #102026;
+  margin-bottom: 3.2rem;
+}
+
+.cards {
+  column-gap: 3.2rem;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  align-items: center;
+  padding: 3.2rem;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 4.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #102026;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #555;
 }
