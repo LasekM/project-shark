@@ -26,6 +26,8 @@
   padding: 2.4rem;
 }
 
+/* NAVIGATION */
+
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -61,21 +63,96 @@
   color: #18dec3;
 }
 
-.btn--login {
+.btn--blue {
   border: 2px solid #18dec3;
-}
-
-.btn--login:link,
-.btn--login:visited {
   background-color: #18dec3;
   color: #fff;
 }
 
-.btn--login:hover,
-.btn--login:active {
+.btn--blue:link,
+.btn--blue:visited {
+  background-color: #18dec3;
+  color: #fff;
+}
+
+.btn--blue:hover,
+.btn--blue:active {
   background-color: #102026;
   color: #18dec3;
   border-color: #18dec3;
 }
 
-/* max-width: 118rem; */
+/* CONTENT */
+
+.hero-description {
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+
+.big-text {
+  font-size: 6.4rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+.subheading {
+  font-size: 4.4rem;
+  color: #18dec3;
+  font-weight: 900;
+}
+
+.trial {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.email-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+.email {
+  padding: 2rem 35rem 2rem 2rem;
+  border-radius: 9px 0 0 9px;
+  border: 2px solid #fff;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.btn-sub {
+  border-radius: 0 9px 9px 0;
+}
+
+.privacy {
+  text-align: center;
+  color: #777;
+}
+
+.privacy-check {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.privacy-text {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.subscribe {
+  margin-bottom: 9.6rem;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-logo {
+  height: 3.2rem;
+  filter: brightness(0) invert(1);
+  color: #fff;
+}

@@ -66,6 +66,12 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 118rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -78,4 +84,19 @@ body {
   cursor: pointer;
   font-family: inherit;
   transition: all 400ms;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #13b29c;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
 }

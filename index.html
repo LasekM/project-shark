@@ -7,11 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" href="/img/logo-small.webp" />
     <title>Shark &mdash; Test IT Candidates!</title>
   </head>
@@ -29,15 +29,71 @@
           </li>
           <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
           <li>
-            <a href="#login" class="btn btn--login">Login</a>
+            <a href="#login" class="btn btn--blue">Login</a>
           </li>
         </ul>
       </nav>
-      <div class="hero-description">
-        <h1>
-          Test your IT Candidates <br />
-          <span>with remote workspaces</span>
-        </h1>
+      <div class="container">
+        <div class="hero-description">
+          <h1 class="big-text">
+            Test your <br />
+            IT Candidates
+          </h1>
+          <p class="subheading">with remote workspaces</p>
+        </div>
+        <div class="subscribe">
+          <p class="trial">
+            Subscribe to get a <strong>free trial</strong> when available!
+          </p>
+          <form>
+            <div class="email-box">
+              <input
+                type="email"
+                required
+                placeholder="Enter email"
+                class="email"
+              />
+              <button class="btn btn--blue btn-sub">Subscribe &rarr;</button>
+              <!-- remove arrow in JS -->
+            </div>
+            <div class="privacy">
+              <input type="checkbox" required class="privacy-check" />
+              <span class="privacy-text">
+                By clicking Subscribe you agree our
+                <a href="#" class="link">Terms & Conditions</a> and
+                <a href="#" class="link">Privacy Policy</a>.</span
+              >
+            </div>
+          </form>
+        </div>
+        <div class="companies">
+          <img
+            src="/img/justjoinit.webp"
+            alt="justjoinit logo"
+            class="company-logo"
+          />
+          <img
+            src="/img/linkedin.webp"
+            alt="linkedin logo"
+            class="company-logo"
+          />
+          <img
+            src="/img/nofluffjobs.webp"
+            alt="nofluffjobs logo"
+            class="company-logo"
+          />
+          <img
+            src="/img/theprotocol.webp"
+            alt="theprotocol logo"
+            class="company-logo"
+          />
+          <img src="/img/pracuj.webp" alt="pracuj logo" class="company-logo" />
+          <img
+            src="/img/bulldogjob.webp"
+            alt="bulldogjob logo"
+            class="company-logo"
+          />
+        </div>
       </div>
     </div>
   </body>
