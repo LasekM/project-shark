@@ -132,6 +132,28 @@ body {
   margin-bottom: 4.8rem;
 }
 
+.heading-secondary {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #102026;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #102026;
+}
+
+.tertiary-text {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #555;
+}
+
 .center-box {
   text-align: center;
 }

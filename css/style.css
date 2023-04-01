@@ -215,14 +215,6 @@
   border-color: #18dec3;
 }
 
-.heading-secondary {
-  font-size: 4.8rem;
-  line-height: 1.2;
-  font-weight: 800;
-  color: #102026;
-  margin-bottom: 3.2rem;
-}
-
 .cards {
   column-gap: 3.2rem;
 }
@@ -249,19 +241,6 @@
   width: 100%;
 }
 
-.heading-tertiary {
-  font-size: 2rem;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #102026;
-}
-
-.card-text {
-  font-size: 1.6rem;
-  line-height: 1.75;
-  color: #555;
-}
-
 /**********************/
 /* FEATURES */
 /**********************/
@@ -275,12 +254,11 @@
     #102026 85%,
     #103035 100%
   );
-  padding: 3.8rem 2.4rem 9.6rem 2.4rem;
+  padding: 4.8rem 2.4rem;
 }
 
 .heading-how {
   color: #fff;
-  text-align: center;
 }
 
 .how-content {
@@ -347,3 +325,36 @@
 /**********************/
 /* KEY ADVANTAGES */
 /**********************/
+
+.key-section {
+  background-color: rgb(224, 255, 251);
+  background-image: linear-gradient(
+    170deg,
+    rgb(224, 255, 251) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  padding: 4.8rem 2.4rem;
+}
+
+.z-pattern {
+  align-items: center;
+  column-gap: 9.6rem;
+  row-gap: 3.2rem;
+}
+
+.key-img {
+  width: 32rem;
+  height: 32rem;
+}
+
+.z-pattern .key-img:nth-child(odd) {
+  justify-self: end;
+}
+
+.heading-tertiary {
+  margin-bottom: 2.4rem;
+}
+
+.z-pattern .key-text:nth-child(odd) {
+  text-align: right;
+}
