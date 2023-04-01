@@ -63,6 +63,12 @@
   font-weight: 500;
   text-decoration: overline;
   align-self: center;
+  transition: all 0.3s;
+}
+
+.logo--full p:hover {
+  text-decoration-color: #18dec3;
+  text-decoration-style: wavy;
 }
 
 .main-nav-list {
@@ -98,18 +104,6 @@
   font-size: 6.4rem;
   line-height: 1.2;
   font-weight: 900;
-}
-
-.subheading {
-  font-size: 4.4rem;
-  color: #18dec3;
-  font-weight: 900;
-}
-
-.trial {
-  font-size: 1.8rem;
-  text-align: center;
-  margin-bottom: 3.2rem;
 }
 
 .email-box {
@@ -175,7 +169,7 @@
     rgba(209, 248, 243, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
-  padding: 6.4rem 2.4rem 9.6rem 2.4rem;
+  padding: 6.4rem 2.4rem 12.8rem 2.4rem;
 }
 
 .switch-box {
@@ -236,6 +230,7 @@
 .card {
   background-color: #fff;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 9px;
   display: flex;
   flex-direction: column;
   gap: 3.6rem;
@@ -266,3 +261,89 @@
   line-height: 1.75;
   color: #555;
 }
+
+/**********************/
+/* FEATURES */
+/**********************/
+
+.features-section {
+  background-color: #102026;
+  background-image: linear-gradient(
+    160deg,
+    #103035 0%,
+    #102026 20%,
+    #102026 85%,
+    #103035 100%
+  );
+  padding: 3.8rem 2.4rem 9.6rem 2.4rem;
+}
+
+.heading-how {
+  color: #fff;
+  text-align: center;
+}
+
+.how-content {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.how-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.how-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+/* INACTIVE BUTTONS */
+
+.feature:link,
+.feature:visited {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding: 1.2rem 2.4rem;
+  border-bottom: 4px solid transparent;
+}
+
+.feature:hover,
+.feature:active {
+  border-bottom: 4px solid #18dec3;
+}
+
+/* ACTIVE BUTTON */
+
+.feature--active:link,
+.feature--active:visited {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(235, 235, 235, 0.105);
+  color: #18dec3;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding: 1.2rem 2.4rem;
+  border-bottom: 4px solid #18dec3;
+}
+
+.how-img {
+  width: 85rem;
+}
+
+/**********************/
+/* KEY ADVANTAGES */
+/**********************/
