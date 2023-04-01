@@ -332,8 +332,7 @@
   background-image: linear-gradient(
     170deg,
     rgb(224, 255, 251) 0%,
-    rgb(255, 255, 255) 70%,
-    rgb(224, 255, 251) 100%
+    rgb(255, 255, 255) 100%
   );
   padding: 4.8rem 2.4rem;
 }
@@ -391,4 +390,117 @@
   transform: scale(150%) translateX(25%);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+/**********************/
+/* PRICING */
+/**********************/
+
+.pricing-section {
+  background-color: #102026;
+  background-image: linear-gradient(
+    160deg,
+    #103035 0%,
+    #102026 20%,
+    #102026 85%,
+    #103035 100%
+  );
+  padding: 4.8rem 2.4rem;
+}
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 8rem 0 9.6rem 0;
+}
+
+.table-card {
+  background-color: #fff;
+  padding: 2.4rem;
+  text-align: center;
+}
+
+.card-top {
+  border-bottom: 1px solid #102026;
+  padding-bottom: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.card-name {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.price {
+  font-size: 3.6rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style: none;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #102026;
+  margin-bottom: 4.8rem;
+}
+
+.card-check-el {
+  display: flex;
+  align-items: center;
+}
+
+.card-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 4px;
+}
+
+.heading-last {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #102026;
+}
+
+.table-card:first-child {
+  border-radius: 9px 0 0 9px;
+}
+
+.table-card:last-child {
+  border-radius: 0 9px 9px 0;
+}
+
+/* for main pricing card*/
+
+.table-card.main-card {
+  background-color: #18dec3;
+  transform: scaleY(1.2) scaleX(1.1);
+  border-radius: 9px;
+}
+
+.card-top.main-card {
+  border-bottom: 1px solid #102026;
+}
+
+.card-name.main-card {
+  font-size: 4.4rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.price.main-card {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #102026;
+}
+
+.how-long.main-card {
+  color: #fff;
+}
+
+.card-list.main-card {
+  color: #fff;
+  margin-bottom: 2.4rem;
 }

@@ -105,6 +105,25 @@ body {
   border-color: #18dec3;
 }
 
+.btn--black {
+  background-color: #102026;
+  border: 2px solid #102026;
+  color: #fff;
+}
+
+.btn--black:link,
+.btn--black:visited {
+  background-color: #102026;
+  color: #fff;
+}
+
+.btn--black:hover,
+.btn--black:active {
+  background-color: #18dec3;
+  color: #102026;
+  border-color: #102026;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -174,10 +193,6 @@ body {
 
 .grid--3--cols {
   grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4--cols {
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .subheading {
