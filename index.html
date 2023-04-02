@@ -85,12 +85,12 @@
             <img
               src="/img/linkedin.webp"
               alt="linkedin logo"
-              class="company-logo"
+              class="company-logo small"
             />
             <img
               src="/img/nofluffjobs.webp"
               alt="nofluffjobs logo"
-              class="company-logo"
+              class="company-logo small"
             />
             <img
               src="/img/theprotocol.webp"
@@ -105,12 +105,12 @@
             <img
               src="/img/bulldogjob.webp"
               alt="bulldogjob logo"
-              class="company-logo"
+              class="company-logo small"
             />
           </div>
         </div>
       </section>
-      <section class="about-section">
+      <section class="about-section" id="about">
         <div class="container">
           <div class="center-box">
             <span class="title-section">about us</span>
@@ -163,7 +163,7 @@
           </div>
         </div>
       </section>
-      <section class="features-section">
+      <section class="features-section" id="features">
         <div class="container">
           <div class="center-box">
             <span class="title-section">features</span>
@@ -239,7 +239,7 @@
           </div>
         </div>
       </section>
-      <section class="key-section">
+      <section class="key-section" id="whyUs">
         <div class="container">
           <div class="center-box">
             <span class="title-section">KEY ADVANTAGES</span>
@@ -281,7 +281,7 @@
               </p>
             </div>
           </div>
-          <div class="key-box">
+          <div class="key-box" id="edu">
             <div class="key-box--text">
               <p class="key-box--small">&mdash; other use cases</p>
               <h2 class="key-box--big heading-secondary">
@@ -293,7 +293,7 @@
           </div>
         </div>
       </section>
-      <section class="pricing-section">
+      <section class="pricing-section" id="pricing">
         <div class="container">
           <div class="center-box">
             <span class="title-section">pricing plans</span>
@@ -460,37 +460,135 @@
               </div>
             </div>
           </div>
-          <div class="contact-box">
-            <h2 class="heading-secondary">Contact Us</h2>
-            <p class="smaller-text contact-text">
-              Fill out this form and let's discuss how we can help.
-            </p>
-            <form class="form">
-              <input type="text" placeholder="Name*" required class="form-el" />
-              <input
-                type="email"
-                placeholder="Email*"
-                required
-                class="form-el"
-              />
-              <input type="tel" placeholder="Phone Number" class="form-el" />
-              <input type="text" placeholder="Company Name" class="form-el" />
-              <textarea
-                placeholder="Your Message*"
-                required
-                class="form-el"
-              ></textarea
-              ><br />
-              <input type="checkbox" required class="form-el" />
-              <span class="privacy-text"
-                >By clicking Send you agree to our
-                <a href="#" class="link">Privacy Policy</a>.</span
-              ><br />
-              <button class="btn btn--black">Send message &rarr;</button>
-            </form>
+          <div class="Contact" id="contact">
+            <img src="/img/ContactUs.svg" alt="" class="contact-img" />
+            <div class="contact-box">
+              <h2 class="heading-secondary">Contact Us</h2>
+              <p class="smaller-text contact-text">
+                Fill out this form and let's discuss how we can help.
+              </p>
+              <form class="form">
+                <input
+                  type="text"
+                  placeholder="Name*"
+                  required
+                  class="form-el"
+                />
+                <input
+                  type="email"
+                  placeholder="Email*"
+                  required
+                  class="form-el"
+                />
+                <input type="tel" placeholder="Phone Number" class="form-el" />
+                <input type="text" placeholder="Company Name" class="form-el" />
+                <textarea
+                  placeholder="Your Message*"
+                  required
+                  class="form-el textarea"
+                ></textarea
+                ><br />
+                <input type="checkbox" required />
+                <span class="privacy-text"
+                  >By clicking Send you agree to our
+                  <a href="#" class="link">Privacy Policy</a>.</span
+                ><br />
+                <button class="btn btn--black">Send message &rarr;</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="grid--footer">
+          <div class="footer-logos">
+            <img src="/img/logo.webp" alt="shark logo" class="site--logo" />
+            <img
+              src="/img/stripe-payment.webp"
+              alt="stripe logo"
+              class="stripe--logo"
+            />
+          </div>
+          <div class="footer-lists">
+            <ul class="footer-nav-list">
+              <li><a href="#about" class="footer-nav-link">About</a></li>
+              <li><a href="#features" class="footer-nav-link">Features</a></li>
+              <li>
+                <a href="#whyUs" class="footer-nav-link">Why us?</a>
+              </li>
+              <li>
+                <a href="#testimonials" class="footer-nav-link">Testimonials</a>
+              </li>
+              <li><a href="#pricing" class="footer-nav-link">Pricing</a></li>
+              <li>
+                <a href="#edu" class="footer-nav-link"
+                  >Education & Remote Work</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-lists">
+            <ul class="footer-nav-list">
+              <li><a href="#contact" class="footer-nav-link">Contact us</a></li>
+              <li><a href="#" class="footer-nav-link">European Union</a></li>
+              <li>
+                <a href="#" class="footer-nav-link">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="footer-nav-link">Terms and Conditions</a>
+              </li>
+              <li><a href="#" class="footer-nav-link">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-social-media">
+            <a href="#" class="btn btn--social"
+              ><img
+                src="/img/facebook-2_1facebook-2.png"
+                alt="Facebook logo"
+                class="social--logo"
+            /></a>
+            <a href="#" class="btn btn--social"
+              ><img
+                src="/img/linkedin_1linkedin.png"
+                alt="LinkedIn logo"
+                class="social--logo"
+            /></a>
+          </div>
+        </div>
+        <div class="companies">
+          <img
+            src="/img/justjoinit.webp"
+            alt="justjoinit logo"
+            class="company-logo"
+          />
+          <img
+            src="/img/linkedin.webp"
+            alt="linkedin logo"
+            class="company-logo small"
+          />
+          <img
+            src="/img/nofluffjobs.webp"
+            alt="nofluffjobs logo"
+            class="company-logo small"
+          />
+          <img
+            src="/img/theprotocol.webp"
+            alt="theprotocol logo"
+            class="company-logo"
+          />
+          <img src="/img/pracuj.webp" alt="pracuj logo" class="company-logo" />
+          <img
+            src="/img/bulldogjob.webp"
+            alt="bulldogjob logo"
+            class="company-logo small"
+          />
+        </div>
+        <p class="footer-text">
+          Made with <ion-icon name="heart" class="heart"></ion-icon> in Poland.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

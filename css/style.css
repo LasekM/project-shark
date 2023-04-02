@@ -158,6 +158,10 @@
   color: #fff;
 }
 
+.small {
+  transform: scale(1.75);
+}
+
 /**********************/
 /* ABOUT US */
 /**********************/
@@ -511,12 +515,13 @@
 }
 
 /**********************/
-/* KEY ADVANTAGES */
+/* CONTACT */
 /**********************/
 
 .contact-section {
   background-color: #fff;
-  padding: 8rem 2.4rem 0 2.4rem;
+  padding: 8rem 1.6rem 0 1.6rem;
+  position: relative;
 }
 
 .testimonials {
@@ -593,11 +598,13 @@
 /* CONTACT */
 
 .contact-box {
+  position: relative;
   margin: 0 auto;
   width: 70rem;
-  padding: 4rem 8rem;
+  padding: 4.8rem;
   box-shadow: 0 1rem 3rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 3rem 3rem 0 0;
+  background-color: #fff;
 }
 
 .contact-text {
@@ -609,10 +616,16 @@
 }
 
 .form-el {
-  padding: 2.4rem 30rem 2.4rem 2.4rem;
-  border: 1px solid #777;
+  padding: 2.4rem;
+  border: 1px solid #aaa;
   border-radius: 9px;
   margin-bottom: 0.8rem;
+  height: 6.4rem;
+  width: 60rem;
+}
+
+.form-el.textarea {
+  height: 8rem;
 }
 
 .contact-box .privacy-text {
@@ -628,4 +641,126 @@
 .contact-box .btn--black:hover,
 .contact-box .btn--black:active {
   background-color: #fff;
+}
+
+.contact-img {
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  vertical-align: middle;
+}
+
+/**********************/
+/* FOOTER */
+/**********************/
+
+.footer {
+  background-color: #102026;
+  background-image: linear-gradient(
+    160deg,
+    #103035 0%,
+    #102026 20%,
+    #102026 85%,
+    #103035 100%
+  );
+  padding: 4.8rem 2.4rem;
+}
+
+.grid--footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+  justify-content: space-around;
+  margin-bottom: 4.8rem;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.site--logo {
+  height: 8rem;
+  width: 8rem;
+}
+
+.stripe--logo {
+  height: 4.8rem;
+  width: 14.4rem;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  list-style: none;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:active {
+  color: #18dec3;
+}
+
+.social--logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.btn--social {
+  border: 1px solid #18dec3;
+  background-color: #102026;
+  color: #fff;
+}
+
+.btn--social:first-child {
+  margin-right: 0.8rem;
+}
+
+.btn--social:link,
+.btn--social:visited {
+  padding: 1.2rem;
+  background-color: #102026;
+  color: #fff;
+}
+
+.btn--social:hover,
+.btn--social:active {
+  background-color: #18dec3;
+  border-color: #18dec3;
+}
+
+.footer .companies {
+  justify-content: center;
+  gap: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer .company-logo {
+  height: 2.4rem;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.heart {
+  color: #18dec3;
+  font-size: 2rem;
 }
