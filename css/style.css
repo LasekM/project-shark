@@ -113,8 +113,9 @@
 }
 
 .email {
-  padding: 2rem 35rem 2rem 2rem;
-  border-radius: 9px 0 0 9px;
+  width: 50rem;
+  padding: 2.4rem;
+  border-radius: 4px 0 0 4px;
   border: 2px solid #fff;
 }
 
@@ -123,7 +124,13 @@
 }
 
 .btn-sub {
-  border-radius: 0 9px 9px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.btn.btn-sub,
+.btn.btn-sub:link,
+.btn.btn-sub:visited {
+  padding: 1.2rem 6.4rem;
 }
 
 .privacy {
@@ -229,7 +236,7 @@
   border-radius: 9px;
   display: flex;
   flex-direction: column;
-  gap: 3.6rem;
+  gap: 1.6rem;
   align-items: center;
   padding: 3.2rem;
   overflow: hidden;
@@ -239,6 +246,10 @@
 .card:hover {
   transform: translateY(-1rem);
   box-shadow: 0 4.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.card .tertiary-text {
+  text-align: justify;
 }
 
 .card-img {
@@ -293,7 +304,6 @@
   font-weight: 500;
   font-size: 1.6rem;
   transition: all 0.3s;
-  font-size: 1.6rem;
   line-height: 1.4;
   padding: 1.2rem 2.4rem;
   border-bottom: 4px solid transparent;
@@ -316,7 +326,6 @@
   font-weight: 500;
   font-size: 1.6rem;
   transition: all 0.3s;
-  font-size: 1.6rem;
   line-height: 1.4;
   padding: 1.2rem 2.4rem;
   border-bottom: 4px solid #18dec3;
@@ -325,6 +334,7 @@
 .how-img {
   width: 85rem;
   border-radius: 4px;
+  max-width: 100%;
 }
 
 /**********************/
