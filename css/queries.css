@@ -75,7 +75,7 @@
   }
 
   .title-section {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .heading-secondary {
@@ -98,7 +98,76 @@
     width: 40rem;
     height: 40rem;
   }
+
+  .about-section {
+    padding: 6.4rem 2.4rem 6.4rem 2.4rem;
+  }
 }
+
+/* below 960 */
+
+@media (max-width: 60em) {
+  .btn.btn-sub,
+  .btn.btn-sub:link,
+  .btn.btn-sub:visited {
+    padding: 1.2rem 4.8rem;
+  }
+
+  .email {
+    width: 45rem;
+    padding: 2.4rem;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #fff;
+  }
+
+  .company-logo {
+    height: 2.4rem;
+  }
+
+  .pricing-table {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    margin: 8rem 0 6.4rem 0;
+  }
+
+  .table-card,
+  .table-card:first-child,
+  .table-card:last-child {
+    border-radius: 9px;
+  }
+
+  .card-top {
+    padding-bottom: 0;
+    height: 16rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .card-list {
+    font-size: 1.8rem;
+    margin: 3.2rem 0;
+  }
+
+  .heading-last {
+    padding: 2.4rem;
+  }
+
+  .table-card.main-card {
+    transform: none;
+  }
+
+  .card-list.main-card {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/* below 800 
+brak menu, mniejszy sub, features, key 1 kolumna, edu box,
+testimonials 1 kolumna, mniejszy contact, footer firmy - 2 wiersze
+*/
+
+@media (max-width: 50em) {
+}
+
 /* 
 TYPOGRAPHY SYSTEM
 
