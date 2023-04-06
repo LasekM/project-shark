@@ -55,10 +55,6 @@
     line-height: 1.75;
   }
 
-  .card .heading-tertiary {
-    font-size: 2.4rem;
-  }
-
   .cards {
     grid-template-columns: 1fr;
     gap: 2.4rem;
@@ -160,12 +156,124 @@
   }
 }
 
-/* below 800 
-brak menu, mniejszy sub, features, key 1 kolumna, edu box,
-testimonials 1 kolumna, mniejszy contact, footer firmy - 2 wiersze
-*/
+/* below 800 */
 
 @media (max-width: 50em) {
+  .main-nav-list li:not(:last-child) {
+    display: none;
+  }
+
+  .main-heading {
+    font-size: 5.7rem;
+  }
+
+  .hero-description .subheading {
+    font-size: 3.6rem;
+  }
+
+  .btn.btn-sub,
+  .btn.btn-sub:link,
+  .btn.btn-sub:visited {
+    padding: 1.2rem 3.6rem;
+  }
+
+  .email {
+    width: 40rem;
+    padding: 2.4rem;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #fff;
+  }
+
+  .about-section .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .how-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+    list-style: none;
+    margin-bottom: 2.4rem;
+  }
+
+  .z-pattern {
+    grid-template-columns: 1fr;
+    align-items: center;
+    column-gap: 9.6rem;
+    row-gap: 3.2rem;
+  }
+
+  .key-img,
+  .key-img:nth-child(odd) {
+    justify-self: center;
+  }
+
+  .key-text,
+  .key-text:nth-child(odd) {
+    text-align: center;
+  }
+
+  .key-text .tertiary-text {
+    font-size: 1.8rem;
+    text-align: justify;
+  }
+
+  .key-img--2 {
+    grid-row: 3/4;
+  }
+
+  .key-box--img {
+    display: none;
+  }
+
+  .key-box {
+    background-image: url(/img/bg-01-cta-webflow-cloneable-template-brix-templates.svg);
+  }
+
+  .contact-section {
+    padding: 3.6rem 1.6rem 0 1.6rem;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  .testimonial-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .testimonial-paragraph {
+    margin-bottom: 2.4rem;
+  }
+
+  .btns-tes {
+    justify-content: center;
+  }
+
+  .contact-box {
+    max-width: 100%;
+  }
+
+  .form-el {
+    max-width: 100%;
+  }
+
+  .contact-box .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .contact-box .smaller-text {
+    font-size: 1.6rem;
+  }
+
+  .footer .companies {
+    display: none;
+  }
 }
 
 /* 

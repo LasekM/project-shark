@@ -362,7 +362,7 @@
   height: 32rem;
 }
 
-.z-pattern .key-img:nth-child(odd) {
+.key-img:nth-child(odd) {
   justify-self: end;
 }
 
@@ -370,7 +370,7 @@
   margin-bottom: 2.4rem;
 }
 
-.z-pattern .key-text:nth-child(odd) {
+.key-text:nth-child(odd) {
   text-align: right;
 }
 
@@ -721,6 +721,7 @@
   color: #fff;
   font-weight: 400;
   font-size: 1.6rem;
+  line-height: 1.2;
   transition: all 0.3s;
 }
 
