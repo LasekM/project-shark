@@ -51,8 +51,7 @@
   }
 
   .card .tertiary-text {
-    font-size: 2rem;
-    line-height: 1.75;
+    font-size: 1.8rem;
   }
 
   .cards {
@@ -68,6 +67,10 @@
   .card-img {
     width: 30rem;
     height: 30rem;
+  }
+
+  .card .heading-tertiary {
+    font-size: 2.4rem;
   }
 
   .title-section {
@@ -163,6 +166,10 @@
     display: none;
   }
 
+  .main-nav-list li:last-child {
+    margin-top: 1.2rem;
+  }
+
   .main-heading {
     font-size: 5.7rem;
   }
@@ -182,6 +189,14 @@
     padding: 2.4rem;
     border-radius: 4px 0 0 4px;
     border: 2px solid #fff;
+  }
+
+  .card .heading-tertiary {
+    font-size: 2.2rem;
+  }
+
+  .card .tertiary-text {
+    font-size: 1.8rem;
   }
 
   .about-section .heading-secondary {
@@ -276,6 +291,16 @@
   }
 }
 
+/* below 700 */
+/*
+za duże loga firm,
+pricing card - mniejszy tekst
+fb i lin jako flex column pod logami innymi, grid 3 columns
+*/
+
+@media (max-width: 50em) {
+}
+
 /* 
 TYPOGRAPHY SYSTEM
 
@@ -284,4 +309,5 @@ TYPOGRAPHY SYSTEM
 
 - spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
 */
