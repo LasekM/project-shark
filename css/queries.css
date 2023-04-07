@@ -291,14 +291,26 @@
   }
 }
 
-/* below 700 */
+/* below 704 */
 /*
-za duże loga firm,
 pricing card - mniejszy tekst
 fb i lin jako flex column pod logami innymi, grid 3 columns
 */
 
-@media (max-width: 50em) {
+@media (max-width: 44em) {
+  .companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3.2rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .company-logo {
+    height: 3.2rem;
+    filter: brightness(0) invert(1);
+    color: #fff;
+  }
 }
 
 /* 
