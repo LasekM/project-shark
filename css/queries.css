@@ -331,9 +331,6 @@
 }
 
 /* below 608px */
-/*
-fb i lin jako flex column pod logami innymi, grid 3 columns
-*/
 
 @media (max-width: 38em) {
   .main-heading {
