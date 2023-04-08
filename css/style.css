@@ -466,12 +466,12 @@
 .card-check-el {
   display: flex;
   align-items: center;
+  gap: 4px;
 }
 
 .card-icon {
   height: 2rem;
-  width: 2rem;
-  margin-right: 4px;
+  min-width: 2rem;
 }
 
 .heading-last {
