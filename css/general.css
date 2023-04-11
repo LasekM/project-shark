@@ -30,6 +30,12 @@ body {
   overflow-x: hidden;
 }
 
+.form-el:focus,
+.email:focus {
+  border-color: #13b29c;
+  outline: 0;
+}
+
 .container {
   max-width: 118rem;
   margin: 0 auto;

@@ -188,9 +188,6 @@
 
   .email {
     width: 40rem;
-    padding: 2.4rem;
-    border-radius: 4px 0 0 4px;
-    border: 2px solid #fff;
   }
 
   .pricing-section {
@@ -428,6 +425,147 @@
 
   .footer-social-media {
     flex-direction: row;
+  }
+}
+
+/* below 512px */
+/* 
+-contact, mniejszy padding boczny inputów
+-contact, mniejszy tekst pod contact us
+*/
+
+@media (max-width: 32em) {
+  .main-heading {
+    font-size: 4.4rem;
+  }
+
+  .hero-description .subheading {
+    font-size: 2.4rem;
+  }
+
+  .smaller-text {
+    font-size: 1.4rem;
+  }
+
+  .email-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email {
+    padding: 1.6rem;
+    border-radius: 4px 4px 0 0;
+    width: 35rem;
+  }
+
+  .btn-sub {
+    border-radius: 0 0 4px 4px;
+    width: 35rem;
+  }
+
+  .switch-box {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+
+  .btn-switch:link,
+  .btn-switch:visited {
+    font-size: 1.8rem;
+  }
+
+  .about-section .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .card-img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .card .heading-tertiary {
+    font-size: 1.6rem;
+  }
+
+  .card .tertiary-text {
+    font-size: 1.6rem;
+  }
+
+  .heading-how {
+    font-size: 3.6rem;
+  }
+
+  .how-list {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  .key-section .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .z-pattern .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .z-pattern .tertiary-text {
+    font-size: 1.6rem;
+  }
+
+  .key-img {
+    width: 25rem;
+    height: 25rem;
+    max-width: 100%;
+  }
+
+  .key-box {
+    padding: 3.2rem;
+    transform: scale(1.2);
+  }
+
+  .key-box--small {
+    font-size: 1.6rem;
+  }
+
+  .key-box--big.heading-secondary {
+    font-size: 3rem;
+  }
+
+  .card-list {
+    font-size: 1.8rem;
+  }
+
+  .pricing-section .smaller-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-img {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .contact-box {
+    padding: 2.4rem 2rem;
+  }
+
+  .contact-box .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .contact-box .smaller-text {
+    font-size: 1.4rem;
+  }
+
+  .contact-box .btn--black {
+    margin-top: 2.4rem;
+    padding: 1.6rem 3.2rem;
+  }
+
+  .btn--social:link,
+  .btn--social:visited {
+    max-height: 5.2rem;
   }
 }
 
