@@ -207,11 +207,7 @@
   }
 
   .how-list {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.4rem;
-    list-style: none;
-    margin-bottom: 2.4rem;
   }
 
   .z-pattern {
@@ -429,10 +425,6 @@
 }
 
 /* below 512px */
-/* 
--contact, mniejszy padding boczny inputów
--contact, mniejszy tekst pod contact us
-*/
 
 @media (max-width: 32em) {
   .main-heading {
@@ -566,6 +558,123 @@
   .btn--social:link,
   .btn--social:visited {
     max-height: 5.2rem;
+  }
+}
+
+/* below 416px */
+
+@media (max-width: 26em) {
+  .main-nav {
+    gap: 2.4rem;
+    padding-bottom: 8rem;
+  }
+
+  .main-nav-list li:last-child {
+    margin-top: 0;
+  }
+
+  .logo {
+    margin-right: 1.2rem;
+    max-width: 4.8rem;
+  }
+
+  .logo--full p {
+    font-size: 2.4rem;
+    text-decoration: overline;
+    align-self: center;
+    max-width: 100%;
+  }
+
+  .hero-description,
+  .subscribe {
+    margin-bottom: 8rem;
+  }
+
+  .subscribe .smaller-text {
+    margin-bottom: 2.4rem;
+  }
+
+  .companies {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .about-section {
+    padding: 2.4rem 0;
+  }
+
+  .main-heading {
+    font-size: 3.4rem;
+  }
+
+  .hero-description .subheading {
+    font-size: 2rem;
+  }
+
+  .email {
+    max-width: 130%;
+  }
+
+  .btn-sub {
+    max-width: 130%;
+  }
+
+  .card .heading-tertiary {
+    margin-bottom: 0;
+    font-size: 1.6rem;
+  }
+
+  .features-section .container {
+    padding: 0;
+  }
+
+  .key-section {
+    padding: 3.2rem 0.4rem;
+  }
+
+  .key-box {
+    padding: 2.4rem;
+    transform: scale(1.1);
+  }
+
+  .key-box--big.heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .grid--footer {
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+    text-align: center;
+  }
+
+  .footer-logos {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 2.4rem;
+  }
+
+  .footer-lists--1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .footer-lists--2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-bottom: 2.4rem;
+  }
+
+  .footer-social-media {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-left: 0;
+    margin-right: 6.4rem;
+    justify-self: center;
+  }
+
+  .footer-nav-link:link,
+  .footer-nav-link:visited {
+    font-size: 2rem;
   }
 }
 
