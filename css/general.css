@@ -84,6 +84,7 @@ body {
 .btn--black:link,
 .btn--black:visited {
   background-color: #103035;
+  font-size: 1.6rem;
   color: #fff;
 }
 
