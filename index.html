@@ -61,23 +61,26 @@
             <p class="smaller-text">
               Subscribe to get a <strong>free trial</strong> when available!
             </p>
-            <form>
+            <form name="subscribe" netlify>
               <div class="email-box">
-                <form name="subscribe" netlify>
-                  <input
-                    type="email"
-                    required
-                    placeholder="Enter email"
-                    class="email"
-                    name="subscribe-email"
-                  />
-                  <button class="btn btn--blue btn-sub" type="submit">
-                    Subscribe <span class="arrow">&rarr;</span>
-                  </button>
-                </form>
+                <input
+                  type="email"
+                  required
+                  placeholder="Enter email"
+                  class="email"
+                  name="subscribe-email"
+                />
+                <button class="btn btn--blue btn-sub" type="submit">
+                  Subscribe <span class="arrow">&rarr;</span>
+                </button>
               </div>
               <div class="privacy">
-                <input type="checkbox" required class="privacy-check" />
+                <input
+                  type="checkbox"
+                  required
+                  class="privacy-check"
+                  name="subscribe-check"
+                />
                 <span class="privacy-text">
                   By clicking Subscribe you agree our
                   <a href="#" class="link">Terms & Conditions</a> and
