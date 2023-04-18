@@ -63,18 +63,18 @@
             </p>
             <form>
               <div class="email-box">
-                <form>
+                <form name="subscribe" netlify>
                   <input
                     type="email"
                     required
                     placeholder="Enter email"
                     class="email"
+                    name="subscribe-email"
                   />
-                  <button class="btn btn--blue btn-sub">
+                  <button class="btn btn--blue btn-sub" type="submit">
                     Subscribe <span class="arrow">&rarr;</span>
                   </button>
                 </form>
-                <!-- remove arrow in JS -->
               </div>
               <div class="privacy">
                 <input type="checkbox" required class="privacy-check" />
@@ -480,20 +480,38 @@
             <p class="smaller-text contact-text">
               Fill out this form and let's discuss how we can help.
             </p>
-            <form class="form">
-              <input type="text" placeholder="Name*" required class="form-el" />
+            <form class="form" name="contact-us" netlify>
+              <input
+                type="text"
+                placeholder="Name*"
+                required
+                class="form-el"
+                name="name"
+              />
               <input
                 type="email"
                 placeholder="Email*"
                 required
                 class="form-el"
+                name="email"
               />
-              <input type="tel" placeholder="Phone Number" class="form-el" />
-              <input type="text" placeholder="Company Name" class="form-el" />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                class="form-el"
+                name="tel"
+              />
+              <input
+                type="text"
+                placeholder="Company Name"
+                class="form-el"
+                name="company-name"
+              />
               <textarea
                 placeholder="Your Message*"
                 required
                 class="form-el textarea"
+                name="message"
               ></textarea
               ><br />
               <input type="checkbox" required />
@@ -501,7 +519,7 @@
                 >By clicking Send you agree to our
                 <a href="#" class="link">Privacy Policy</a>.</span
               ><br />
-              <button class="btn btn--black">
+              <button class="btn btn--black" type="submit">
                 Send message <span class="arrow">&rarr;</span>
               </button>
             </form>
