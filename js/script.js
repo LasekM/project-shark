@@ -29,10 +29,3 @@ switchBox.addEventListener("click", function (e) {
     .querySelector(`.cards--${clicked.dataset.btn}`)
     .classList.add("cards--active");
 });
-
-/*
- cards.forEach((t) => {
-    t.classList.remove("heading-secondary--active");
-    t.classList.remove(".cards--active");
-  });
-*/
