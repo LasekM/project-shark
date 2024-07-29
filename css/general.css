@@ -179,3 +179,21 @@ body {
   text-align: center;
   margin-bottom: 4.8rem;
 }
+
+.heading-secondary {
+  display: none;
+  transition: all 0.3s;
+}
+
+.cards {
+  display: none;
+  transition: all 0.3s;
+}
+
+.heading-secondary--active {
+  display: block;
+}
+
+.cards--active {
+  display: grid;
+}
