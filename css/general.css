@@ -197,3 +197,11 @@ body {
 .cards--active {
   display: grid;
 }
+
+.how-img {
+  display: none;
+}
+
+.how-img--active {
+  display: block;
+}

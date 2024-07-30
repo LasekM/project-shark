@@ -1,6 +1,7 @@
 "use strict";
 
 // About section
+//////////////////////////////////////////////////
 const cards = document.querySelectorAll(".cards");
 const aboutHeading = document.querySelectorAll(".about-heading");
 const switchBox = document.querySelector(".switch-box");
@@ -28,4 +29,29 @@ switchBox.addEventListener("click", function (e) {
   document
     .querySelector(`.cards--${clicked.dataset.btn}`)
     .classList.add("cards--active");
+});
+
+// Feature section
+//////////////////////////////////////////////////
+
+const featureImg = document.querySelectorAll(".how-img");
+const btnsBox = document.querySelector(".how-list");
+const listBtns = document.querySelectorAll(".feature");
+
+btnsBox.addEventListener("click", function (e) {
+  e.preventDefault();
+  const clicked = e.target.closest(".feature");
+
+  // guard clause
+  if (!clicked) return;
+
+  // active btn
+  listBtns.forEach((t) => t.classList.remove("feature--active"));
+  clicked.classList.add("feature--active");
+
+  // active img
+  featureImg.forEach((t) => t.classList.remove("how-img--active"));
+  document
+    .querySelector(`.how-img--${clicked.dataset.btn}`)
+    .classList.add("how-img--active");
 });
